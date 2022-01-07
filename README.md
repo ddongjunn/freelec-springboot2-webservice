@@ -1,3 +1,3 @@
 # freelec-springboot2-webservice
 
-정리 : https://url.kr/qdtwac
+Notion : https://url.kr/qdtwac
