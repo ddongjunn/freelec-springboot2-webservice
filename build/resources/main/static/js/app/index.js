@@ -7,7 +7,7 @@ var main = {
         $('#btn-update').on('click',function () {
             _this.update();
         });
-        $('btn-delete').on('click',function () {
+        $('#btn-delete').on('click',function () {
            _this.delete();
         });
     },
@@ -57,7 +57,7 @@ var main = {
 
         $.ajax({
             type: 'DELETE',
-            url: 'api/v1/posts'+id,
+            url: '/api/v1/posts/'+id,
             dataType: 'json',
             contentType: 'application/json; charset=utf-8',
         }).done(function () {
