@@ -1,9 +1,9 @@
-package com.djlee.book.springboot.web;
+package com.djlee.book.springboot.service.posts.web;
 
 import com.djlee.book.springboot.service.posts.PostsService;
-import com.djlee.book.springboot.web.dto.PostsResponseDto;
-import com.djlee.book.springboot.web.dto.PostsSaveRequestDto;
-import com.djlee.book.springboot.web.dto.PostsUpdateRequestDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsResponseDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsSaveRequestDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

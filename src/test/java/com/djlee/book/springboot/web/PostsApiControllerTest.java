@@ -2,8 +2,8 @@ package com.djlee.book.springboot.web;
 
 import com.djlee.book.springboot.domain.posts.Posts;
 import com.djlee.book.springboot.domain.posts.PostsRepository;
-import com.djlee.book.springboot.web.dto.PostsSaveRequestDto;
-import com.djlee.book.springboot.web.dto.PostsUpdateRequestDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsSaveRequestDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsUpdateRequestDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -17,7 +17,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;

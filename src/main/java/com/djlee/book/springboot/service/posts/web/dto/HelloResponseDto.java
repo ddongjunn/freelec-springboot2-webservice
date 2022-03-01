@@ -1,4 +1,4 @@
-package com.djlee.book.springboot.web.dto;
+package com.djlee.book.springboot.service.posts.web.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

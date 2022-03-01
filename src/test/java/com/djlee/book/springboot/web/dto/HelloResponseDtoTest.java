@@ -1,5 +1,6 @@
 package com.djlee.book.springboot.web.dto;
 
+import com.djlee.book.springboot.service.posts.web.dto.HelloResponseDto;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

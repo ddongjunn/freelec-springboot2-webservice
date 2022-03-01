@@ -1,6 +1,6 @@
-package com.djlee.book.springboot.web;
+package com.djlee.book.springboot.service.posts.web;
 
-import com.djlee.book.springboot.web.dto.HelloResponseDto;
+import com.djlee.book.springboot.service.posts.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

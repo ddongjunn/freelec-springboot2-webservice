@@ -1,9 +1,9 @@
-package com.djlee.book.springboot.web;
+package com.djlee.book.springboot.service.posts.web;
 
 import com.djlee.book.springboot.config.auth.LoginUser;
 import com.djlee.book.springboot.config.auth.dto.SessionUser;
 import com.djlee.book.springboot.service.posts.PostsService;
-import com.djlee.book.springboot.web.dto.PostsResponseDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

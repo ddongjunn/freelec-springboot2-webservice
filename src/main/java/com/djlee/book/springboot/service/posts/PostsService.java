@@ -2,12 +2,11 @@ package com.djlee.book.springboot.service.posts;
 
 import com.djlee.book.springboot.domain.posts.Posts;
 import com.djlee.book.springboot.domain.posts.PostsRepository;
-import com.djlee.book.springboot.web.dto.PostsListResponseDto;
-import com.djlee.book.springboot.web.dto.PostsResponseDto;
-import com.djlee.book.springboot.web.dto.PostsSaveRequestDto;
-import com.djlee.book.springboot.web.dto.PostsUpdateRequestDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsListResponseDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsResponseDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsSaveRequestDto;
+import com.djlee.book.springboot.service.posts.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
