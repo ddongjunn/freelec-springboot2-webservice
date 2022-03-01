@@ -12,16 +12,12 @@ cache:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
 
-script:
-  - "./gradlew clean build"
-
-before_install:
-  - chmod +x gradlew
+script: "./gradlew clean build"
 
 before_deploy:
   - zip -r freelec-springboot2-webservice *
   - mkdir -p deploy
-  - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservcie.zip
+  - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservice.zip
 
 deploy:
   - provider : s3
